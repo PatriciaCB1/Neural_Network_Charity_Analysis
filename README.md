@@ -75,17 +75,18 @@ Using knowledge of TensorFlow, I optimized the model in an effort to achieve a t
 
 The model is optimized, and the predictive accuracy is increased to over 75%, or there is working code that makes three attempts to increase model performance using the following steps:
 
-    - Additional neurons are added to hidden layers 
-    ![More nodes](https://github.com/PatriciaCB1/Neural_Network_Charity_Analysis/blob/main/Images/More%20nodes.png) 
+### Additional neurons are added to hidden layers 
 
-    - Neurons are reduced from hidden layers
-    ![Fewer nodes](https://github.com/PatriciaCB1/Neural_Network_Charity_Analysis/blob/main/Images/Fewer%20nodes.png) 
+![More nodes](https://github.com/PatriciaCB1/Neural_Network_Charity_Analysis/blob/main/Images/More%20nodes.png) 
 
-    - Additional hidden layers are added 
-    ![Adding another layer](https://github.com/PatriciaCB1/Neural_Network_Charity_Analysis/blob/main/Images/Adding%20Another%20Layer.png)
+### Neurons are reduced from hidden layers
+![Fewer nodes](https://github.com/PatriciaCB1/Neural_Network_Charity_Analysis/blob/main/Images/Fewer%20nodes.png) 
 
-    - The activation function of hidden layers are changed for optimization 
-    ![Changing Activation Function](https://github.com/PatriciaCB1/Neural_Network_Charity_Analysis/blob/main/Images/Changing%20Activation%20Function.png)
+### Additional hidden layers are added 
+![Adding another layer](https://github.com/PatriciaCB1/Neural_Network_Charity_Analysis/blob/main/Images/Adding%20Another%20Layer.png)
+
+### The activation function of hidden layers are changed for optimization 
+![Changing Activation Function](https://github.com/PatriciaCB1/Neural_Network_Charity_Analysis/blob/main/Images/Changing%20Activation%20Function.png)
    
 
 ## Results
