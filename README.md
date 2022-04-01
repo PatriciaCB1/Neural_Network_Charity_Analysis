@@ -15,25 +15,25 @@ With knowledge of machine learning and neural networks, I used the features in t
 
 I used a CSV containing more than 34,000 organizations that have received funding over the years. Within this dataset were a number of columns that capture metadata about each organization, such as the following:
 
-EIN and NAME—Identification columns
-APPLICATION_TYPE—Alphabet Soup application type
-AFFILIATION—Affiliated sector of industry
-CLASSIFICATION—Government organization classification
-USE_CASE—Use case for funding
-ORGANIZATION—Organization type
-STATUS—Active status
-INCOME_AMT—Income classification
-SPECIAL_CONSIDERATIONS—Special consideration for application
-ASK_AMT—Funding amount requested
-IS_SUCCESSFUL—Was the money used effectively
-What You're Creating
+- EIN and NAME—Identification columns
+- APPLICATION_TYPE—Alphabet Soup application type
+- AFFILIATION—Affiliated sector of industry
+- CLASSIFICATION—Government organization classification
+- USE_CASE—Use case for funding
+- ORGANIZATION—Organization type
+- STATUS—Active status
+- INCOME_AMT—Income classification
+- SPECIAL_CONSIDERATIONS—Special consideration for application
+- ASK_AMT—Funding amount requested
+- IS_SUCCESSFUL—Was the money used effectively
+
 
 This project consisted of three technical analysis deliverables and a written report as follows:
 
-Deliverable 1: Preprocessing Data for a Neural Network Model
-Deliverable 2: Compile, Train, and Evaluate the Model
-Deliverable 3: Optimize the Model
-Deliverable 4: A Written Report on the Neural Network Model (README.md)
+- Deliverable 1: Preprocessing Data for a Neural Network Model
+- Deliverable 2: Compile, Train, and Evaluate the Model
+- Deliverable 3: Optimize the Model
+- Deliverable 4: A Written Report on the Neural Network Model (README.md)
 
 
 
@@ -50,7 +50,7 @@ The following preprocessing steps have been performed:
 - The preprocessed data is split into training and testing datasets 
 - The numerical values have been standardized using the StandardScaler() module 
 
-![Charity Del One](https://github.com/PatriciaCB1/Cryptocurrencies/blob/main/Images/Crypto%20Deliverable%201.png) 
+![Charity Del One](https://github.com/PatriciaCB1/Neural_Network_Charity_Analysis/blob/main/Images/Charity%20Del%201.png) 
 
 ## Compile, Train, and Evaluate the Model
 
@@ -64,9 +64,9 @@ The neural network model using Tensorflow Keras contains working code that perfo
 - The model's weights are saved every 5 epochs 
 - The results are saved to an HDF5 file 
 
-![Charity Del Two One](https://github.com/PatriciaCB1/Cryptocurrencies/blob/main/Images/Crypto%20Deliverable%202.png) 
+![Charity Del Two One](https://github.com/PatriciaCB1/Neural_Network_Charity_Analysis/blob/main/Images/Charity%20Del%20Two%20One.png) 
 
-![Charity Del Two Two](https://github.com/PatriciaCB1/Cryptocurrencies/blob/main/Images/Crypto%20Deliverable%202.png) 
+![Charity Del Two Two](https://github.com/PatriciaCB1/Neural_Network_Charity_Analysis/blob/main/Images/Charity%20Del%20Two%20Two.png) 
 
 
 ## Optimize the Model
@@ -75,16 +75,16 @@ Using knowledge of TensorFlow, I optimized the model in an effort to achieve a t
 
 The model is optimized, and the predictive accuracy is increased to over 75%, or there is working code that makes three attempts to increase model performance using the following steps:
     - Additional neurons are added to hidden layers 
-    ![More nodes](https://github.com/PatriciaCB1/Cryptocurrencies/blob/main/Images/Crypto%20Deliverable%203.png) 
+    ![More nodes](https://github.com/PatriciaCB1/Neural_Network_Charity_Analysis/blob/main/Images/More%20nodes.png) 
 
     - Neurons are reduced from hidden layers
-    ![Fewer nodes](https://github.com/PatriciaCB1/Cryptocurrencies/blob/main/Images/Crypto%20Deliverable%203.png) 
+    ![Fewer nodes](https://github.com/PatriciaCB1/Neural_Network_Charity_Analysis/blob/main/Images/Fewer%20nodes.png) 
 
     - Additional hidden layers are added 
-    ![Adding another layer](https://github.com/PatriciaCB1/Cryptocurrencies/blob/main/Images/Crypto%20Deliverable%203.png)
+    ![Adding another layer](https://github.com/PatriciaCB1/Neural_Network_Charity_Analysis/blob/main/Images/Adding%20Another%20Layer.png)
 
     - The activation function of hidden layers are changed for optimization 
-    ![Changing Activation Function](https://github.com/PatriciaCB1/Cryptocurrencies/blob/main/Images/Crypto%20Deliverable%203.png)
+    ![Changing Activation Function](https://github.com/PatriciaCB1/Neural_Network_Charity_Analysis/blob/main/Images/Changing%20Activation%20Function.png)
    
 
 ## Results
@@ -94,6 +94,6 @@ Adding more nodes increased the model accuracy from 54% to 69%.  When I decrease
 The model with the highest accuracy at 73% was as follows:
 
 
-![Final Model with highest accuracy](https://github.com/PatriciaCB1/Cryptocurrencies/blob/main/Images/Crypto%20Deliverable%204.png) 
+![Final Model with highest accuracy](https://github.com/PatriciaCB1/Neural_Network_Charity_Analysis/blob/main/Images/Final%20model%20with%20highest%20accuracy.png) 
 
-![Final Model with highest accuracy two](https://github.com/PatriciaCB1/Cryptocurrencies/blob/main/Images/Crypto%20Deliverable%204.png) 
+![Final Model with highest accuracy two](https://github.com/PatriciaCB1/Neural_Network_Charity_Analysis/blob/main/Images/Final%20model%20with%20highest%20accuracy%20two.png) 
