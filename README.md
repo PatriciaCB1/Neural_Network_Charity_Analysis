@@ -74,6 +74,7 @@ The neural network model using Tensorflow Keras contains working code that perfo
 Using knowledge of TensorFlow, I optimized the model in an effort to achieve a target predictive accuracy higher than 75%. Three attempts were made.
 
 The model is optimized, and the predictive accuracy is increased to over 75%, or there is working code that makes three attempts to increase model performance using the following steps:
+
     - Additional neurons are added to hidden layers 
     ![More nodes](https://github.com/PatriciaCB1/Neural_Network_Charity_Analysis/blob/main/Images/More%20nodes.png) 
 
